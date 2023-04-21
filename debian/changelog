@@ -1,5 +1,55 @@
-template-repository (1.0-1) unstable; urgency=medium
+swaybg (1.2.0-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream version
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Birger Schacht <birger@debian.org>  Mon, 05 Dec 2022 15:26:05 +0100
+
+swaybg (1.1.1-3) unstable; urgency=medium
+
+  * Fix d/watch file by switching to gitmode
+  * Bump standards-version to 4.6.1.0 (no changes required)
+
+ -- Birger Schacht <birger@debian.org>  Fri, 14 Oct 2022 21:29:40 +0200
+
+swaybg (1.1.1-2) unstable; urgency=medium
+
+  * Fix d/watch file
+
+ -- Birger Schacht <birger@debian.org>  Fri, 08 Apr 2022 11:18:16 +0200
+
+swaybg (1.1.1-1) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Remove constraints unnecessary since buster:
+    + Build-Depends: Drop versioned constraint on meson and wayland-protocols.
+
+  [ Jonas Meurer ]
+  * d/gbp.conf: Add file and set pristine-tar = True
+
+  [ Birger Schacht ]
+  * New upstream release
+  * Bump standards version to 4.6.0.1 (no changes required)
+  * Update uploader email address
+  * Bump year range in d/copyright and update email address
+  * Bump debhelper compat version to 13
+  * Drup filenamemangle option from d/watch
+  * Add bugtracking information to d/upstream/metadata
+
+ -- Birger Schacht <birger@debian.org>  Fri, 11 Mar 2022 10:24:42 +0100
+
+swaybg (1.0-2) unstable; urgency=medium
+
+  * d/control:
+   + Set maintainer field to new team address and add nicoo to
+     uploaders
+   + Point Vcs-* fields to the new repository in the swaywm-team
+     salsa group
+   + Bump standards version to 4.4.0
+
+ -- Birger Schacht <birger@rantanplan.org>  Fri, 26 Jul 2019 09:33:32 +0200
+
+swaybg (1.0-1) unstable; urgency=medium
+
+  * Initial packaging (Closes: #928403)
+
+ -- Birger Schacht <birger@rantanplan.org>  Sat, 18 May 2019 22:08:50 +0200
